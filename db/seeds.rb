@@ -32,3 +32,17 @@ kale_smoothie.ingredients.create(description: "large handful frozen pineapple ch
 kale_smoothie.ingredients.create(description: "medium-sized chunk ginger")
 kale_smoothie.ingredients.create(description: "1 tbsp cashew nuts")
 kale_smoothie.ingredients.create(description: "1 banana, optional")
+
+poop_slurpee = Drink.create(
+  title: "Smelly Poo Slurpee",
+  description: "Give yourself a dose of stink in the morning with this vegan brown smoothie.",
+  steps: "Put all of the ingredients into a bullet or smoothie maker and blend until you have the desired consistency.",
+  source: "https://www.google.com/",
+)
+poop_slurpee.ingredients.create(description: "2 handfuls poop")
+poop_slurpee.ingredients.create(description: "½ corn cob")
+poop_slurpee.ingredients.create(description: "½ lime, juice only")
+poop_slurpee.ingredients.create(description: "large handful frozen pee chunks")
+poop_slurpee.ingredients.create(description: "medium-sized chunk cat hair")
+poop_slurpee.ingredients.create(description: "1 tbsp nutz")
+poop_slurpee.ingredients.create(description: "1 banana, optional")
